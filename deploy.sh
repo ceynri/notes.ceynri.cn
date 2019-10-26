@@ -13,7 +13,7 @@ git add -A
 git commit -m 'update last updated time'
 
 # 复原.git名称
-mv docs/notes/origin.git docs/notes/git
+mv docs/notes/origin.git docs/notes/.git
 
 # 发布到 github page ###################
 
