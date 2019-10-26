@@ -9,4 +9,4 @@ mv docs/notes/.git docs/notes/origin.git
 git add -A
 git commit -m 'update updated time'
 
-# rename docs/notes/origin.git docs/notes/git
+rename docs/notes/origin.git docs/notes/git
