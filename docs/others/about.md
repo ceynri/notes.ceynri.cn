@@ -23,7 +23,7 @@ date: "2019-09-25"
 
 - WeChat: sakuramemory
 - GitHub: [@ceynri](https://github.com/ceynri)
-- Mail: ceynri@google.com
+- Mail: ceynri@gmail.com
 
 <br/>
 
