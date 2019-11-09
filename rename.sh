@@ -5,8 +5,13 @@ set -e
 
 # 生成文章最后更新时间 ###################
 
-mv docs/notes/.git docs/notes/origin.git
+mkdir docs/notes/origin.git
+mv docs/notes/.git/* docs/notes/origin.git
+rm -rf docs/notes/.git
+
 git add -A
 git commit -m 'update updated time'
 
-mv docs/notes/origin.git docs/notes/.git.
+mkdir docs/notes/.git
+mv docs/notes/origin.git/* docs/notes/.git
+rm -rf docs/notes/origin.git
