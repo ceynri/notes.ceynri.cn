@@ -2,6 +2,9 @@
   <div style="padding-bottom: 24px">WSN 无线传感器网络 笔记</div>
   <div style="background: #e5e6e8; height: 1px; margin-bottom: 20px;"></div>
 </div>
+
+![wsn.png](https://i.loli.net/2020/01/02/rxnMS4tpou83Fl2.png)
+
 <ul style="list-style: disc outside;">
   <li style="line-height: 34px;"><span class="content mubu-node" heading="1"
       style="line-height: 34px; min-height: 34px; font-size: 24px; padding: 2px 0px; display: inline-block; vertical-align: top;">1&nbsp;介绍</span>
