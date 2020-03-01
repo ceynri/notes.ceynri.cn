@@ -9,7 +9,7 @@ date: "2019-08-01"
 
 Markdown 是个好东西，希望大家都能花一个下午时间认真学会它。
 
-> 推荐原文地址浏览：<https://ceynri.github.io/notes/markdown/>
+> 推荐原文地址浏览：<https://docs.ceynri.cn/notes/markdown/>
 
 ## 内容目录 <!-- omit in toc -->
 
@@ -34,7 +34,7 @@ Markdown 是个好东西，希望大家都能花一个下午时间认真学会�
   - [待办事项](#待办事项)
   - [注释](#注释)
   - [脚注](#脚注)
-- [HTML元素](#html元素)
+- [HTML 元素](#html-元素)
 - [HTML 属性](#html-属性)
 - [转义](#转义)
 - [公式](#公式)
@@ -240,14 +240,14 @@ ___粗斜体文本___
 
 ```md
 <div align="center">
-    <img width="200px" src="https://ceynri.github.io/imgs/avatar.jpg" />
+    <img width="200px" src="https://docs.ceynri.cn/imgs/avatar.jpg" />
 </div>
 ```
 
 **效果**
 
 <div align="center">
-    <img width="200px" src="https://ceynri.github.io/imgs/avatar.jpg" />
+    <img width="200px" src="https://docs.ceynri.cn/imgs/avatar.jpg" />
 </div>
 
 <br/>
@@ -574,7 +574,7 @@ function demo {
 
 [该网站](https://www.baidu.com) 会帮我解决你的所有问题。
 
-这是我的 [头像](https://ceynri.github.io/imgs/avatar.jpg)
+这是我的 [头像](https://docs.ceynri.cn/imgs/avatar.jpg)
 ```
 
 **效果**
@@ -583,7 +583,7 @@ function demo {
 
 [该网站](https://www.baidu.com) 会帮我解决你的所有问题。
 
-这是我的 [头像](https://ceynri.github.io/imgs/avatar.jpg)
+这是我的 [头像](https://docs.ceynri.cn/imgs/avatar.jpg)
 
 <br/>
 
@@ -839,7 +839,7 @@ Markdown 表格使用“`|`”与“`-`”进行直观的绘制。
 
 以下是其他技巧：
 
-## HTML元素
+## HTML 元素
 
 Markdown 支持很多 HTML 元素，可以补充 Markdown 某些不具备的高级效果。
 
