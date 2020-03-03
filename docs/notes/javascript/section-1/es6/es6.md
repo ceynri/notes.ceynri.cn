@@ -1,22 +1,11 @@
 ---
-title: "ES6 的其他小特性"
-date: "2020-02-19"
+title: "ES6 的其他特性"
+date: "2019-09-06"
 ---
 
-# ES6 的其他小特性
+# JavaScript | ES6 的其他特性
 
-- 汇总讲解（x）
-- 内容太少了（√）
-
-## 目录 <!-- omit in toc -->
-
-- [对象的迭代](#对象的迭代)
-
-<br>
-
----
-
-<br>
+*收集中*
 
 ## 对象的迭代
 
@@ -32,5 +21,3 @@ date: "2020-02-19"
 *`Object.keys/values/entries` 会忽略 `Symbol` 类型的属性，如果想要获得 `Symbol` 类型的键，使用`Object.getOwnPropertySymbols()` 会返回一个只包含 `Symbol` 类型的键的数组；`Reflect.ownKeys(obj)` 方法会返回所有键。*
 
 <br>
-
-# 暂未完成
