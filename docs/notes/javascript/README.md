@@ -5,7 +5,11 @@ date: "2019-08-10"
 
 # JavaScript 笔记手册
 
-本笔记是我对于一些 JavaScript 教程内容的整理和相关知识的记录，默认读者非零编程基础且了解 HTML，个人认为内容简单的部分会快速带过，而特殊的部分讲解更加具体，适合想要快速上手 Javascript 或者作温习参考的同学阅读。
+本笔记是我对于一些 JavaScript 教程内容的整理和相关知识的记录。
+
+个人认为内容简单的部分会快速略过，仅做温习参考；
+
+深入部分的讲解更加具体，希望能对读者有所帮助。
 
 笔记目前分为三个部分：
 
@@ -36,6 +40,7 @@ date: "2019-08-10"
 
 ### ES6
 
+- [箭头函数](./section-1/es6/arrow-function.md)
 - [...运算符](./section-1/es6/three-point-operator.md)
 - [解构赋值](./section-1/es6/destructuring-assignment.md)
 - [Symbol 类型](./section-1/es6/symbol.md)
