@@ -13,7 +13,7 @@ date: "2019-08-22"
 
 - [上传至 Github](./upload2github.md)
 
-- git commit 规范
+- [git commit 规范](./commit-standard.md)
 
 ## 其他
 

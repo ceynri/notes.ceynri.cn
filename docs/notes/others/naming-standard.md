@@ -29,14 +29,20 @@ date: "2019-09-24"
 
 <br/>
 
-## 变量
+## 字段
 
-| 语言       | 变量            | 常量       | 函数/方法                       | 类/对象    |
-| ---------- | --------------- | ---------- | ------------------------------- | ---------- |
-| Java       | camelCase       | UPPER_CASE | camelCase                       | PascalCase |
-| C          | underscore_case | UPPER_CASE | camelCase（有的人函数用Pascal） | PascalCase |
-| JavaScript | camelCase       | UPPER_CASE | camelCase                       | PascalCase |
+| 语言       | 变量            | 常量       | 函数/方法       | 类/对象    |
+| ---------- | --------------- | ---------- | --------------- | ---------- |
+| Java       | camelCase       | UPPER_CASE | camelCase       | PascalCase |
+| C          | underscore_case | UPPER_CASE | camelCase       | PascalCase |
+| JavaScript | camelCase       | UPPER_CASE | camelCase       | PascalCase |
+| Python     | underscore_case | UPPER_CASE | underscore_case | PascalCase |
 
+> 注：在 JavaScript 中，因为定义一个常量只需使用 const 写起来很简单，我个人习惯对于不会改变的量都会用 const 代替 let，从而避免误修改。
+> 
+> 但我仍然使用 camelCase 命名这些 const 变量，因为它们大多数都不会被反复使用，只是一个中间变量。
+> 
+> 而对于会被反复使用的、用来代替某字面量的“常量”，我会使用绝大部分语言都通用的 UPPER_CASE 进行命名，这非常直观。
 <br/>
 
 ## 前端
@@ -146,7 +152,7 @@ date: "2019-09-24"
 
 <br/>
 
-### 版本号
+### 语义化版本
 
 使用语义版本号来管理代码：语义版本号分为 X.Y.Z 三位，分别代表主版本号、次版本号和补丁版本号。当代码变更时，版本号按以下原则更新：
 
@@ -155,5 +161,7 @@ date: "2019-09-24"
 - 如果有大变动，向下不兼容，需要更新X位
 
 除此以外还可以添加诸如 Alpha、Beta 等测试版本标识。
+
+> 详细规定：<https://semver.org/lang/zh-CN/>
 
 <br/>
