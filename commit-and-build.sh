@@ -3,6 +3,15 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 提交 .vuepress 修改 ##################
+
+# cd docs/.vuepress
+
+# git add -A
+# git commit -m 'update .vuepress'
+
+# cd ../..
+
 # 生成文章最后更新时间 ###################
 
 # 修改.git文件名称（规避权限问题需要使用mkdir+mv）
