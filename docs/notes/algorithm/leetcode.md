@@ -1,6 +1,6 @@
 ---
-title: "LeetCode 题解速览"
-date: "2020-03-27"
+title: 'LeetCode 题解速览'
+date: 2020-03-27
 ---
 
 # LeetCode 题解速览
@@ -26,27 +26,27 @@ date: "2020-03-27"
 > // 登录后，拉到页面最低端，将“每页数量”设置为全部
 > // 在控制台运行以下代码，即可自动生成完成过的题目markdown表格
 > let resultArray = [
->   "| 序号 | 难度 | 题目 | 标签 | 思路 |",
->   "| ---- | ---- | ---- | ---- | ---- |",
+>   '| 序号 | 难度 | 题目 | 标签 | 思路 |',
+>   '| ---- | ---- | ---- | ---- | ---- |',
 > ];
-> let table = document.querySelector(".reactable-data");
+> let table = document.querySelector('.reactable-data');
 > for (let row of table.children) {
->   if (row.querySelector(".text-success")) {
->     let cols = row.querySelectorAll("td");
+>   if (row.querySelector('.text-success')) {
+>     let cols = row.querySelectorAll('td');
 >     let order = cols[1].innerHTML;
->     let title = row.querySelector(".question-title a");
+>     let title = row.querySelector('.question-title a');
 >     let titleName = title.innerHTML;
->     let titleLink = title.getAttribute("href");
->     let level = cols[5].querySelector("span").innerHTML;
+>     let titleLink = title.getAttribute('href');
+>     let level = cols[5].querySelector('span').innerHTML;
 >     resultArray.push(
 >       `| ${order} | ${level} | [${titleName}](https://leetcode-cn.com${titleLink}) |  |  |`
 >     );
 >   }
 > }
-> let resultString = resultArray.join("\n");
-> console.log("复制内容：");
+> let resultString = resultArray.join('\n');
+> console.log('复制内容：');
 > console.log(resultString);
-> alert("请手动复制监控台输出的内容");
+> alert('请手动复制监控台输出的内容');
 > ```
 
 <br>
