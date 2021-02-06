@@ -1,5 +1,5 @@
 ---
-title: "原型"
+title: '原型'
 date: 2020-07-27
 ---
 
@@ -52,7 +52,7 @@ const lee = new Person();
 ```js
 function Person() {
   this.say = function() {
-    console.log("hi");
+    console.log('hi');
   };
 }
 new Person().say(); // hi
