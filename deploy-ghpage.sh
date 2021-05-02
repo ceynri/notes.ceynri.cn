@@ -34,11 +34,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# git config --global user.name "ceynri"
-# git config --global user.email "347670115@qq.com"
-
-# git remote add origin git@github.com:ceynri/ceynri.github.io.git
-
 # 如果发布到 https://<USERNAME>.github.io
 git push -f git@github.com:ceynri/ceynri.github.io.git master
 
