@@ -1,4 +1,5 @@
 node_modules
 /docs/.vuepress/dist/
+/docs/.vuepress/config/secret.json
 /docs/notes/origin.git
 /deploy.sh
