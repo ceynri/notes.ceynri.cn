@@ -32,28 +32,24 @@ module.exports = [
       },
     ],
   },
-  // {
-  //     text: '随笔',
-  //     link: '/essays/'
-  // },
   {
     text: '最近',
     link: '/pages/recent',
   },
-  {
-    text: '留言',
-    link: '/pages/msg-board',
-  },
-  {
-    text: '关于',
-    link: '/pages/about',
-  },
+  // {
+  //   text: '留言',
+  //   link: '/pages/msg-board',
+  // },
+  // {
+  //   text: '关于',
+  //   link: '/pages/about',
+  // },
   {
     text: '主页',
-    link: 'https://www.ceynri.cn',
+    link: 'https://ceynri.cn',
   },
   {
     text: 'Github',
-    link: 'https://www.github.com/ceynri',
+    link: 'https://github.com/ceynri',
   },
 ];
