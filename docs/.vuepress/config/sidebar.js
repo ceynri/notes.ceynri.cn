@@ -99,6 +99,7 @@ const network = [
   '/notes/network/dns',
   '/notes/network/transport-layer-protocol',
   '/notes/network/http',
+  '/notes/network/response-code',
 ];
 
 const algorithm = [
