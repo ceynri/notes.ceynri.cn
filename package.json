@@ -1,7 +1,6 @@
 {
-  "name": "vuepressblog",
+  "name": "notes.ceynri.cn",
   "version": "1.0.0",
-  "description": "#Hello VuePress!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.0.3"
   },
