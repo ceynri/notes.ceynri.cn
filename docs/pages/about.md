@@ -23,7 +23,6 @@ title: "关于..."
 联系方式：
 
 - Mail: ceynri@gmail.com
-- WeChat: sakuramemory
 - GitHub: [@ceynri](https://github.com/ceynri)
 
 <br/>
